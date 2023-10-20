@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to Web Development</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Web Development Course</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#section1">HTML</a></li>
+            <li><a href="#section2">CSS</a></li>
+            <li><a href="#section3">JavaScript</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="section1">
+            <h2>HTML</h2>
+            <p>HTML (HyperText Markup Language) is the foundation of every web page. It defines the structure and content of web documents.</p>
+        </section>
+        <section id="section2">
+            <h2>CSS</h2>
+            <p>CSS (Cascading Style Sheets) is used to control the presentation and layout of web pages, making them visually appealing.</p>
+        </section>
+        <section id="section3">
+            <h2>JavaScript</h2>
+            <p>JavaScript is a powerful scripting language that adds interactivity to web pages, allowing for dynamic behavior.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Introduction to Web Development Course</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
